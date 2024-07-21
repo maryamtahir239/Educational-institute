@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford University</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Kaushan+Script&family=Merriweather:wght@300&family=Montserrat:wght@100&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                   <li><a href="index.html"> HOME </a></li>
+                   <li><a href="about.html">ABOUT</a> </li>
+                   <li><a href="course.html">COURSE</a> </li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Our Courses</h1>
+
+
+    </section>
+
+    <!-- Course -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Enroll in online courses offered at multiple Eduford Colleges.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>High School Students</h3>
+                <p>Dual enrollment allows eligible students the opportunity to complete college classes and earn college credits while still in high school, but there are specific rules and regulations that govern your ability to take college courses regardless of whether or not you are currently enrolled or seeking to enroll</p>
+                </div>
+            <div class="course-col">
+                <h3>International Students</h3>
+                <p>International/F-1 students may concurrently enroll in two different SEVIS-approved schools at one time as long as the combined enrollment amounts to a full time course of study. If you intend to enroll in a course at another Eduford, your current Home College must approve the enrollment request and update your Form I-20</p>
+            </div>
+            <div class="course-col">
+                <h3>Adult Students</h3>
+                <p>Adult Education learners pursuing a high school diploma or a high school equivalency certificate at an Adult Education or Eduford University non-credit program. Dual enrollment allows eligible adult students the opportunity to complete college classes and earn college credits while pursuing a high school diploma or equivalency.</p></div>
+
+        </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Uni isn't just about studying, it's a whole lot more.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Libraries were full of ideas—perhaps the most dangerous and powerful of all weapons.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>No matter the level of education, all students need places that offer a break from the classroom.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>We've made sure that you're never far away from something delicious to eat or drink.</p>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>The Eduford University is committed to remaining the backbone of higher education in the state and the <br> leading provider of career and workforce training in the country by keeping up with the <br> changing needs of residents like you.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> By Maheen Asad</p>
+    </section>
+
+
+<!-- Javascript -->
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
